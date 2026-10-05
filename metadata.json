@@ -1,0 +1,6 @@
+{
+  "name": "Glow & Chill — Lilin Aroma Terapi Alami",
+  "description": "Landing page artisanal lilin aromaterapi Glow & Chill berbahan natural soy wax dengan 4 varian menenangkan (Lavender, Coffee, Tea, Bakery) dan pemesanan langsung via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
