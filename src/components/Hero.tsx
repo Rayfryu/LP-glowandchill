@@ -1,5 +1,6 @@
 import { Flame, ShieldCheck, Clock, ArrowDown, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
+import mainImage from '../assets/images/main.jpg'; // sesuaikan path kalau Hero.tsx ga ada di src/components/
 
 interface HeroProps {
   onExploreClick: () => void;
@@ -121,14 +122,11 @@ export function Hero({ onExploreClick, onOrderClick }: HeroProps) {
           >
             <div className="relative aspect-[4/5] sm:aspect-[4/5] lg:aspect-[4/5] w-full overflow-hidden bg-[#ECE3D8] border border-[#DDD3C7] shadow-xl">
               <img
-                src="/src/assets/images/main.jpg"
+                src={mainImage}
                 alt="Lilin aromaterapi Glow & Chill artisanal pot semen estetik dengan varian Bakery dan Tea beserta kemasan signature"
-                referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transform hover:scale-103 transition-transform duration-700 ease-out"
                 onError={(e) => {
-                  // Fallback container in case of loading issues
-                  const target = e.target as HTMLElement;
-                  target.style.display = 'none';
+                  console.error('Gagal load gambar hero:', (e.target as HTMLImageElement).src);
                 }}
               />
               

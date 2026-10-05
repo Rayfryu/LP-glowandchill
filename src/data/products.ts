@@ -1,3 +1,8 @@
+import lavenderImg from '../assets/images/lavender_gc.jpg';
+import coffeeImg from '../assets/images/coffe_gc.jpg';
+import teaImg from '../assets/images/tea_gc.jpg';
+import bakeryImg from '../assets/images/bakkery_gc.jpg';
+
 export interface Product {
   id: 'lavender' | 'coffee' | 'tea' | 'bakery';
   name: string;
@@ -34,7 +39,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Botanical Embed',
-    image: '/src/assets/images/lavender_gc.jpg',
+    image: lavenderImg,
     scentFamily: 'Floral & Relaxing',
     pyramid: {
       top: 'French Lavender & Bergamot',
@@ -59,7 +64,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Roasted Bean Topping',
-    image: '/src/assets/images/coffe_gc.jpg',
+    image: coffeeImg,
     scentFamily: 'Warm & Gourmand',
     pyramid: {
       top: 'Freshly Ground Espresso & Hazelnut',
@@ -84,7 +89,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Dried Green Tea Leaves',
-    image: '/src/assets/images/tea_gc.jpg',
+    image: teaImg,
     scentFamily: 'Fresh & Botanical',
     pyramid: {
       top: 'White Green Tea Leaves & Lemon Zest',
@@ -109,7 +114,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Dried Orange Blossom',
-    image: '/src/assets/images/bakkery_gc.jpg',
+    image: bakeryImg,
     scentFamily: 'Sweet & Comforting',
     pyramid: {
       top: 'Warm Butter Crust & Cinnamon Sugar',
