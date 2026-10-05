@@ -121,7 +121,7 @@ export function Hero({ onExploreClick, onOrderClick }: HeroProps) {
           >
             <div className="relative aspect-[4/5] sm:aspect-[4/5] lg:aspect-[4/5] w-full overflow-hidden bg-[#ECE3D8] border border-[#DDD3C7] shadow-xl">
               <img
-                src="/src/assets/images/glow_chill_hero_attached_1790996451009.jpg"
+                src="/src/assets/images/main.jpg"
                 alt="Lilin aromaterapi Glow & Chill artisanal pot semen estetik dengan varian Bakery dan Tea beserta kemasan signature"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transform hover:scale-103 transition-transform duration-700 ease-out"
@@ -142,12 +142,6 @@ export function Hero({ onExploreClick, onOrderClick }: HeroProps) {
                 <span className="font-serif italic text-sm tracking-wide">Signature Artisan Pots</span>
                 <span className="text-[11px] uppercase tracking-wider text-amber-200 font-mono">Glow & Chill Studio</span>
               </div>
-            </div>
-
-            {/* Decorative subtle aesthetic card tag */}
-            <div className="mt-3 flex items-center justify-between text-xs text-[#7A6E64] px-1 font-mono">
-              <span>ARTISAN REPOSITORY 04</span>
-              <span>JAKARTA / INDONESIA</span>
             </div>
           </motion.div>
 

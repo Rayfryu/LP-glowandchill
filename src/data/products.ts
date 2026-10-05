@@ -34,7 +34,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Botanical Embed',
-    image: '/src/assets/images/candle_lavender_scent_1790991243443.jpg',
+    image: '/src/assets/images/lavender_gc.jpg',
     scentFamily: 'Floral & Relaxing',
     pyramid: {
       top: 'French Lavender & Bergamot',
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Roasted Bean Topping',
-    image: '/src/assets/images/candle_coffee_scent_1790991256608.jpg',
+    image: '/src/assets/images/coffe_gc.jpg',
     scentFamily: 'Warm & Gourmand',
     pyramid: {
       top: 'Freshly Ground Espresso & Hazelnut',
@@ -84,7 +84,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Dried Green Tea Leaves',
-    image: '/src/assets/images/candle_tea_scent_1790991267539.jpg',
+    image: '/src/assets/images/tea_gc.jpg',
     scentFamily: 'Fresh & Botanical',
     pyramid: {
       top: 'White Green Tea Leaves & Lemon Zest',
@@ -109,7 +109,7 @@ export const PRODUCTS: Product[] = [
     weight: '200 gram (Nett)',
     burnTime: '45+ Jam',
     wax: '100% Soy Wax · Pot Semen Artisanal & Dried Orange Blossom',
-    image: '/src/assets/images/candle_bakery_scent_1790991279366.jpg',
+    image: '/src/assets/images/bakkery_gc.jpg',
     scentFamily: 'Sweet & Comforting',
     pyramid: {
       top: 'Warm Butter Crust & Cinnamon Sugar',
